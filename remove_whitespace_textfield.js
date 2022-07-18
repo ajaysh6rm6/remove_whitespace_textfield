@@ -5,3 +5,12 @@
             event.preventDefault();
           }
       });
+
+//Inline removeWiteSpacesFromTextFields
+//js
+function removeSpaces(string) {
+  return string.trim();
+ }
+//html 
+<input type="text" onblur="this.value=removeSpaces(this.value);">
+//Inline removeWiteSpacesFromTextFields     
